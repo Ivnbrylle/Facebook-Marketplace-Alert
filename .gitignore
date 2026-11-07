@@ -1,0 +1,43 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*secret*
+*credential*
+*webhook*
+
+# Runtime data (may contain listing IDs, locations, and personal preferences)
+marketplace_state.json
+places_cache.json
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local tooling and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Build and coverage output
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
